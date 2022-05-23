@@ -32,6 +32,7 @@ pipeline {
           }
 	  steps{
 		echo "This is the main branch"
+		echo "new one maaa"
 	 }
         }
      }
