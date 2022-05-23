@@ -18,5 +18,13 @@ pipeline {
                 echo "This is branch Developer"
             }
         }
+	stage("Third") {
+            when {
+                branch 'test'
+            }
+            steps {
+                 echo "This is branch Test"
+            }
+        }
      }
 }
