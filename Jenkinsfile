@@ -24,7 +24,6 @@ pipeline {
             }
             steps {
                  echo "This is branch Test"
-		 yum -y install git
             }
         }
 
