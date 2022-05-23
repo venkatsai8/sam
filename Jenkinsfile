@@ -26,5 +26,13 @@ pipeline {
                  echo "This is branch Test"
             }
         }
+	stage("FInal") {
+	   when {
+		branch 'master'
+          }
+	  steps{
+		echo "This is the main branch"
+	 }
+        }
      }
 }
