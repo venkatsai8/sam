@@ -16,7 +16,6 @@ pipeline {
 		}
 		steps {
 		echo " this is test stage"
-		echo $HOME
 	}
       }
    }
