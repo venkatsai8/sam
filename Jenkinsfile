@@ -23,10 +23,15 @@ pipeline {
                  branch 'deploy'
                 }
                 steps {
-                echo " this is deploy stage"
-	        echo "hi my name is natraj"
+
+                echo " this is deploy stage,hvhfjdbvfddjdj"
+
         }
       }
-
+	stage("four") {
+		steps{
+		echo "final"
+	}
+      }
    }
 }
