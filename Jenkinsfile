@@ -26,6 +26,10 @@ pipeline {
                 echo " this is deploy stage,hvhfjdbvfddjdj"
         }
       }
-
+	stage("four") {
+		steps{
+		echo "final"
+	}
+      }
    }
 }
