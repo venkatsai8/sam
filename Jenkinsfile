@@ -10,5 +10,13 @@ pipeline {
                 echo "This is branch nat"
             }
         }
+	stage("Second") {
+	    when {
+		 branch 'test'
+		}
+		steps {
+		echo " this is test stage"
+	}
+      }
    }
 }
