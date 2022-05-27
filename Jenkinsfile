@@ -24,6 +24,7 @@ pipeline {
                 }
                 steps {
                 echo " this is deploy stage"
+	        echo "hi my name is natraj"
         }
       }
 
