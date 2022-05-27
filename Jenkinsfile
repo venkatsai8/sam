@@ -23,7 +23,9 @@ pipeline {
                  branch 'deploy'
                 }
                 steps {
+
                 echo " this is deploy stage,hvhfjdbvfddjdj"
+
         }
       }
 	stage("four") {
