@@ -31,6 +31,8 @@ pipeline {
 	stage("four") {
 		steps{
 		echo "final"
+		echo "bchbcfhbhfdbfdjbhfddh"
+		echo "vfdjnfjnjfdnf"
 	}
       }
    }
