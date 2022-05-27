@@ -23,8 +23,7 @@ pipeline {
                  branch 'deploy'
                 }
                 steps {
-                echo " this is deploy stage"
-		echo "Hello world"
+                echo " this is deploy stage,hvhfjdbvfddjdj"
         }
       }
 
